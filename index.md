@@ -42,17 +42,22 @@ layout: homepage
 </section>
 
 <section class="section-card">
-  <h2 class="section-heading">Academic Trajectory</h2>
+  <h2 class="section-heading">Career Trajectory</h2>
   <div class="trajectory-grid">
     <div class="trajectory-item">
       <img src="assets/img/ucsd_logo.png" alt="UC San Diego logo">
-      <h3>UC San Diego</h3>
+      <h3>University of California, San Diego</h3>
       <p>PhD in Computer Science<br>2025 to Present</p>
+    </div>
+      <div class="trajectory-item">
+      <img src="assets/img/MBZUAI_Logo_EN_Black.jpg" alt="MBZUAI logo">
+      <h3>MBZUAI</h3>
+      <p>Research Associate II<br>2024 to 2025</p>
     </div>
     <div class="trajectory-item">
       <img src="assets/img/MBZUAI_Logo_EN_Black.jpg" alt="MBZUAI logo">
       <h3>MBZUAI</h3>
-      <p>MS in Machine Learning<br>2021 to Present</p>
+      <p>MS in Machine Learning<br>2022 to 2024</p>
     </div>
     <div class="trajectory-item">
       <img src="assets/img/kaust_logo.png" alt="KAUST logo">
