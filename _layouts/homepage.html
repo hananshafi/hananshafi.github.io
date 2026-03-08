@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: 'en-US' }}">
   <head>
+    {% assign asset_version = site.time | date: '%s' %}
+    {% if site.github and site.github.build_revision %}
+      {% assign asset_version = site.github.build_revision %}
+    {% endif %}
+
     <title>{{ site.title }} | {{ site.affiliation }}</title>
 
     <meta charset="UTF-8">
@@ -14,15 +19,15 @@
     <link rel="canonical" href="{{ site.canonical }}">
     {% endif %}
 
-    <link rel="icon" media="(prefers-color-scheme: dark)" href="{{ site.favicon_dark }}" type="image/png">
-    <link rel="icon" media="(prefers-color-scheme: light)" href="{{ site.favicon }}" type="image/png">
-    <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
+    <link rel="icon" media="(prefers-color-scheme: dark)" href="{{ site.favicon_dark | replace: './', '/' }}" type="image/png">
+    <link rel="icon" media="(prefers-color-scheme: light)" href="{{ site.favicon | replace: './', '/' }}" type="image/png">
+    <script src="{{ '/assets/js/favicon-switcher.js' | relative_url }}?v={{ asset_version }}" type="application/javascript"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/publications.css">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ asset_version }}">
+    <link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}?v={{ asset_version }}">
   </head>
 
   <body>
