@@ -3,8 +3,6 @@ layout: homepage
 ---
 
 <section id="about" class="section-card hero-card">
-  <p class="eyebrow">Multimodal Learning | Generative AI | Embodied Intelligence</p>
-  <h2>Building reasoning-first multimodal systems for real-world intelligence.</h2>
   <p>
     I am a <strong>PhD student and Powell Fellow in Computer Science at UC San Diego</strong>, advised by
     <a href="https://cseweb.ucsd.edu/~mkchandraker/">Prof. Manmohan Chandraker</a>.
