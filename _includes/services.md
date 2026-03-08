@@ -32,6 +32,8 @@
   </ul>
 </div>
 
+<br>
+
 <h2 id="awards" class="section-heading">Awards and Honors</h2>
 <ul class="compact-list awards-list">
   <li><a href="https://nips.cc/">Recipient of Powell Fellowship and Jacobs Engineering Fellowship at UCSD.</a></li>
