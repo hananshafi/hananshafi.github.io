@@ -34,13 +34,13 @@
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/agentx_diagram.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Under Review</abbr>
+    <abbr class="badge">ICLR 2026</abbr>
   </div>
 
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://arxiv.org/abs/2505.24876">Agent-X: Evaluating Deep Multimodal Reasoning in Vision-Centric Agentic Tasks</a></div>
     <div class="author">Tajamul Ashraf*, Amal Saqib*, <strong>Hanan Gani</strong>, Muhra AlMahri, Yuhao Li, Noor Ahsan, Umair Nawaz, Jean Lahoud, Hisham Cholakkal, Mubarak Shah, Philip Torr, Fahad Shahbaz Khan, Rao Muhammad Anwer, Salman Khan</div>
-    <div class="periodical"><em>Under Review</em></div>
+    <div class="periodical"><em>Internal Conference on Learning Representations (ICLR) 2026</em></div>
     <div class="links">
       <a href="http://arxiv.org/pdf/2505.24876" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://huggingface.co/datasets/Tajamul21/Agent-X" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Dataset</a>
