@@ -18,26 +18,26 @@ layout: homepage
     <a href="https://sites.google.com/view/fahadkhans/home">Prof. Fahad Khan</a>.
     I also worked as a visiting student with <a href="https://peterwonka.net/">Prof. Peter Wonka</a> at KAUST.
   </p>
-  <div class="hero-actions">
-    <a class="btn-primary" href="{{ site.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a>
-    <a class="btn-secondary" href="{{ site.cv_link }}" target="_blank" rel="noopener">Download CV</a>
-  </div>
 </section>
 
 <section id="research" class="section-card">
   <h2 class="section-heading">Research Focus</h2>
   <div class="pillar-grid">
     <article class="pillar-item">
-      <h3>Reasoning in Vision-Language Models</h3>
-      <p>Improving long-horizon reasoning and decision-making in multimodal foundation models.</p>
+      <h3>Intelligent Agentic Systems</h3>
+      <p>Building multimodal agents that plan, reason, and act robustly in open-ended tasks.</p>
     </article>
     <article class="pillar-item">
-      <h3>Generative and Grounded Learning</h3>
-      <p>Designing controllable models for synthesis, grounding, and compositional understanding.</p>
+      <h3>World and Mental Models</h3>
+      <p>Learning predictive internal models for simulation, decision support, and long-horizon behavior.</p>
     </article>
     <article class="pillar-item">
-      <h3>Embodied and Agentic AI</h3>
-      <p>Evaluating and scaling multimodal agents in interactive, vision-centric environments.</p>
+      <h3>Spatial Reasoning</h3>
+      <p>Developing representations and inference mechanisms for geometry-aware visual understanding.</p>
+    </article>
+    <article class="pillar-item">
+      <h3>Embodied AI</h3>
+      <p>Designing grounded intelligence for perception, control, and interaction in physical environments.</p>
     </article>
   </div>
 </section>
