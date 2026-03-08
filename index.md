@@ -2,80 +2,123 @@
 layout: homepage
 ---
 
-## About Me
+<section id="about" class="section-card hero-card">
+  <p class="eyebrow">Multimodal Learning | Generative AI | Embodied Intelligence</p>
+  <h2>Building reasoning-first multimodal systems for real-world intelligence.</h2>
+  <p>
+    I am a <strong>PhD student and Powell Fellow in Computer Science at UC San Diego</strong>, advised by
+    <a href="https://cseweb.ucsd.edu/~mkchandraker/">Prof. Manmohan Chandraker</a>.
+    I am also supported by the <strong>UCSD Jacobs School of Engineering Fellowship</strong> and hold a research
+    appointment at MBZUAI.
+  </p>
+  <p>
+    Before UCSD, I completed my <strong>Master's in Machine Learning at MBZUAI</strong> in the
+    <a href="https://www.ival-mbzuai.com/">IVAL lab</a>, advised by
+    <a href="https://salman-h-khan.github.io/">Prof. Salman Khan</a> and co-advised by
+    <a href="https://sites.google.com/view/fahadkhans/home">Prof. Fahad Khan</a>.
+    I also worked as a visiting student with <a href="https://peterwonka.net/">Prof. Peter Wonka</a> at KAUST.
+  </p>
+  <div class="hero-actions">
+    <a class="btn-primary" href="{{ site.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a>
+    <a class="btn-secondary" href="{{ site.cv_link }}" target="_blank" rel="noopener">Download CV</a>
+  </div>
+</section>
 
-I am a **Ph.D. student and a Powell Fellow in Computer Science at the University of California, San Diego (UCSD)** advised by [Prof. Manmohan Chandraker](https://cseweb.ucsd.edu/~mkchandraker/). I am also the recipient of the **UCSD Jacobs School of Engineering Fellowship**. My research focuses on the intersection of Multi-modal Learning, Generative AI and Embodied Intelligence. I also hold a research appointment at the Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI).
+<section id="research" class="section-card">
+  <h2 class="section-heading">Research Focus</h2>
+  <div class="pillar-grid">
+    <article class="pillar-item">
+      <h3>Reasoning in Vision-Language Models</h3>
+      <p>Improving long-horizon reasoning and decision-making in multimodal foundation models.</p>
+    </article>
+    <article class="pillar-item">
+      <h3>Generative and Grounded Learning</h3>
+      <p>Designing controllable models for synthesis, grounding, and compositional understanding.</p>
+    </article>
+    <article class="pillar-item">
+      <h3>Embodied and Agentic AI</h3>
+      <p>Evaluating and scaling multimodal agents in interactive, vision-centric environments.</p>
+    </article>
+  </div>
+</section>
 
-Before joining UCSD, I earned my **Master’s degree in Machine Learning** at MBZUAI where I was part of the [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/), advised by [Prof. Salman Khan](https://salman-h-khan.github.io/) and co-advised by [Prof. Fahad Khan](https://sites.google.com/view/fahadkhans/home). I was also fortunate to be advised and mentored by [Prof. Muzammal Naseer](https://muzammal-naseer.netlify.app/). I also spent time as a **visiting student** with [Prof. Peter Wonka](https://peterwonka.net/) at **KAUST**.
-
-<!---
-I received my undergraduate degree in **Electronics and Communication Engineering** with a **minor in Computer Science** from the **National Institute of Technology (NIT) Srinagar**. Before transitioning to academia, I worked as a **Machine Learning Engineer** at the Harman Research Division of **Samsung**.
-
-
-I am currently a Research Associate at [Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI)](http://www.mbzuai.ac.ae) and have recently obtained my Masters degree in machine learning from the same institution. At MBZUAI, I am affliated with the [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/) where I am primarily advised by [Dr. Salman Khan](https://salman-h-khan.github.io/) and have a close collaboration with [Dr. Muzammal Naseer](https://muzammal-naseer.netlify.app/). My secondary advisor is [Dr. Fahad Khan](https://sites.google.com/view/fahadkhans/home). I have also worked as a visiting student with [Professor Peter Wonka](https://peterwonka.net/) at King Abdullah University of Science and Technology (KAUST). 
-
-
-I received my undergraduate degree in Electronics and Communication Engineering with a minor in Computer Science from the [National Institute of Technology (NIT) Srinagar, India](https://nitsri.ac.in/). After graduation, I worked as a Machine Learning engineer at Harman Research Division of [Samsung](https://www.harman.com/India) before transitioning into academia in 2021 and joining MBZUAI as a Research Assistant under [Dr. Mohammad Yaqub](https://scholar.google.co.uk/citations?user=9dfn5GkAAAAJ&hl=en)
--->
-
-<div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
-    <div style="text-align: center;">
-        <img src="assets/img/ucsd_logo.png" alt="MBZUAI" width="90">
-        <p>University of California, San Diego<br>(2025-Present)</p>
+<section class="section-card">
+  <h2 class="section-heading">Academic Trajectory</h2>
+  <div class="trajectory-grid">
+    <div class="trajectory-item">
+      <img src="assets/img/ucsd_logo.png" alt="UC San Diego logo">
+      <h3>UC San Diego</h3>
+      <p>PhD in Computer Science<br>2025 to Present</p>
     </div>
-    <div style="text-align: center;">
-        <img src="assets/img/MBZUAI_Logo_EN_Black.jpg" alt="MBZUAI" width="220">
-        <p>MBZUAI<br>(2021-Present)</p>
+    <div class="trajectory-item">
+      <img src="assets/img/MBZUAI_Logo_EN_Black.jpg" alt="MBZUAI logo">
+      <h3>MBZUAI</h3>
+      <p>MS in Machine Learning<br>2021 to Present</p>
     </div>
-    <div style="text-align: center;">
-        <img src="assets/img/kaust_logo.png" alt="KAUST" width="120">
-        <p>KAUST<br>(2023)</p>
+    <div class="trajectory-item">
+      <img src="assets/img/kaust_logo.png" alt="KAUST logo">
+      <h3>KAUST</h3>
+      <p>Visiting Student<br>2023</p>
     </div>
-    <div style="text-align: center;">
-        <img src="assets/img/Samsung_Logo.png" alt="Samsung" width="120">
-        <p>Samsung<br>(2018-2021)</p>
+    <div class="trajectory-item">
+      <img src="assets/img/Samsung_Logo.png" alt="Samsung logo">
+      <h3>Samsung</h3>
+      <p>Machine Learning Engineer<br>2018 to 2021</p>
     </div>
-    <div style="text-align: center;">
-        <img src="assets/img/nit_logo.png" alt="nit" width="250">
-       <p style="margin-top: 3px;">NIT Srinagar<br>(2014-2018)</p>
+    <div class="trajectory-item">
+      <img src="assets/img/nit_logo.png" alt="NIT Srinagar logo">
+      <h3>NIT Srinagar</h3>
+      <p>Bachelor's in ECE, Minor in CS<br>2014 to 2018</p>
     </div>
-</div>
+  </div>
+</section>
 
+<section id="news" class="section-card">
+  <h2 class="section-heading">Recent News</h2>
+  <ul class="news-list">
+    <li>
+      <span class="news-date">Mar 2026</span>
+      <p>One paper accepted at ML4RS workshop at ICLR 2026.</p>
+    </li>
+    <li>
+      <span class="news-date">Jan 2026</span>
+      <p>Agent-X accepted at ICLR 2026.</p>
+    </li>
+    <li>
+      <span class="news-date">Sep 2025</span>
+      <p>Began my PhD in Computer Science at UC San Diego.</p>
+    </li>
+    <li>
+      <span class="news-date">Sep 2025</span>
+      <p>Placed 2nd in the research track at UC Berkeley's AgentX challenge.</p>
+    </li>
+    <li>
+      <span class="news-date">Jun 2025</span>
+      <p>Aurelia accepted at ICCV 2025.</p>
+    </li>
+    <li>
+      <span class="news-date">Mar 2025</span>
+      <p>VideoGLaMM accepted at CVPR 2025.</p>
+    </li>
+    <li>
+      <span class="news-date">Jan 2025</span>
+      <p>VANE-Bench accepted at NAACL 2025.</p>
+    </li>
+    <li>
+      <span class="news-date">Mar 2024</span>
+      <p>Awarded ICLR 2024 Travel Grant.</p>
+    </li>
+    <li>
+      <span class="news-date">Oct 2023</span>
+      <p>Awarded NeurIPS 2023 Travel Grant.</p>
+    </li>
+  </ul>
+</section>
 
-## Research Interests
-
-My research focuses on developing **multimodal AI systems** that seamlessly integrate **reasoning**, **generative modeling**, and **embodied intelligence**.
-
-## News
-- **[March. 2026]** One paper accepted at **ML4RS @ICLR 2026**.
-- **[Jan. 2026]** AgentX is accepted at **ICLR 2026**.
-- **[Sept. 2025]** Embarked my PhD in Computer Science at the **University of California, San Diego (UCSD)**.
-- **[Sept. 2025]** Achieved **2nd place** in research track at **UC Berkeley's AgentX challenge**.
-- **[June. 2025]** Our paper titled "Aurelia: Test-time Reasoning Distillation in Audio-Visual LLMs" is accepted at **ICCV 2025**.
-- **[March. 2025]** Our paper titled "VideoGLaMM: A Large Multimodal Model for Pixel-Level Visual Grounding in Videos" got accepted at **CVPR 2025**.
-- **[Jan. 2025]** Our paper titled "VANE-Bench: Video Anomaly Evaluation Benchmark for Conversational LMMs" got accepted at **NAACL 2025**.
-- **[Nov. 2024]** One paper accepted at **COLING 2025**.
-- **[Oct. 2024]** One paper accepted at **IEEE/CVF WACV 2025**.
-- **[June. 2024]** Our paper "MedContext: Learning Contextual Cues for Efficient Volumetric Medical Segmentation" got accepted at **MICCAI 2024**.
-- **[June. 2024]** One paper accepted at **IEEE ICIP 2024**.
-- **[March. 2024]** Awarded **ICLR 2024 Travel Grant**.
-- **[Jan. 2024]** Our paper "LLM Blueprint: Enabling Text-to-Image Generation with Complex and Detailed Prompts" got accepted at **ICLR 2024**.
-- **[Oct. 2023]** Awarded **NeurIPS 2023 Travel Grant**.
-- **[Sept. 2023]** Our paper "Align your Prompts: Test-Time Prompting with Distribution Alignment for Zero-Shot Generalization" got accepted at **NeurIPS 2023**.
-- **[June. 2023]** Joined Visual Computing Center (VCC) at [KAUST](https://cemse.kaust.edu.sa/vcc) as a Visiting Student under [Professor Peter Wonka](https://peterwonka.net/).
-- **[Jan. 2023]** Our **US patent** about training Vision Transformers on small-scale datasets got approved for filing.
-  
-<!--- - **[Sep. 2022]** I started  working with [Dr. Salman](https://salman-h-khan.github.io/) as a part of [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/).
-- **[Sep. 2022]** I joined [MBZUAI](http://www.mbzuai.ac.ae) as a grad student in Machine Learning with full scholarship.
-- **[Oct. 2022]** Our paper about training Vision Transformers on small-scale datasets got accepted to **BMVC 2022**.
-- **[Oct. 2021]** I joined [BiomedIA Lab](https://mbzuai-biomedia.com/biomedia/) at [MBZUAI](http://www.mbzuai.ac.ae) as a Research Assistant.
-- **[March. 2021]** I started as a part-time Predoctoral fellow at [Fatima Fellowship](https://www.fatimafellowship.com/) working under [Dr. Abubakr Abid](https://abidlabs.github.io/).
-- **[Oct. 2018]** I joined as a Machine Learning Engineer at [Harman International Inc. (Samsung)](https://www.harman.com/India).
-- **[July. 2018]** Our paper about supervised methodology for disguised facial recognition in wild got accepted to **ACM ICRCV** 2018.
-- **[August. 2018]** Our paper about disguised facial recognition got accepted to **IEEE ICSIP** 2018.
-- **[June. 2018]** I completed my undergraduate studies in Electronics and Communications Engineering from the [National Institute of Technology (NIT) Srinagar](https://nitsri.ac.in/).
-- **[Dec. 2017]** I joined as a Research Intern in [Computational Intelligence and UAV Lab](https://sites.google.com/site/compintellab/) at the [Indian Institute of Science, Bangalore](https://iisc.ac.in/) -->
-
+<section class="section-card publications-section">
 {% include_relative _includes/publications.md %}
+</section>
 
+<section class="section-card services-section">
 {% include_relative _includes/services.md %}
+</section>
