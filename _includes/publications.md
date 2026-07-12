@@ -8,6 +8,30 @@
 <div class="pub-row">
 
   <div class="col-sm-3 abbr">
+    <img src="assets/img/robotales_teaser.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">ECCV 2026</abbr>
+  </div>
+
+  <div class="col-sm-9">
+    <div class="title"><a href="https://arxiv.org/abs/2607.06018">RoboTALES: Learning Reasoning-Guided Robot Policies via Task-Aligned Simulated Futures</a></div>
+    <div class="author"><strong>Hanan Gani</strong>, Tejal Kulkarni, Madhoolika Chodavarapu, Nicklas Hansen, Manmohan Chandraker</div>
+    <div class="periodical"><em>European Conference on Computer Vision (ECCV) 2026</em></div>
+    <div class="links">
+      <a href="https://arxiv.org/pdf/2607.06018" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      <a href="https://hananshafi.github.io/RoboTALES/" class="btn btn-sm z-depth-0" role="button" target="_blank">Project page</a>
+      <a href="https://github.com/hananshafi/RoboTALES" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    </div>
+  </div>
+</div>
+</li>
+
+<br>
+
+
+<li>
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr">
     <img src="assets/img/videomolmo_main_diagram.jpg" class="teaser img-fluid z-depth-1">
     <abbr class="badge">Under Review</abbr>
   </div>
@@ -297,17 +321,20 @@
 
   <div class="col-sm-3 abbr">
     <img src="assets/img/disguised_1.jpg" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Arxiv</abbr>
+    <abbr class="badge">ICSIP / ICRCV</abbr>
   </div>
 
   <div class="col-sm-9">
-    <div class="title"><a href="https://arxiv.org/abs/1809.02875">A Supervised Learning Methodology for Real-Time Disguised Face Recognition in the Wild</a></div>
+    <div class="title">
+      <a href="https://arxiv.org/abs/1809.02875">A Supervised Learning Methodology for Real-Time Disguised Face Recognition in the Wild</a><br>
+      <a href="https://ieeexplore.ieee.org/abstract/document/8600440">Disguised Facial Recognition Using Neural Networks</a>
+    </div>
     <div class="author">Saumya Kumaar, Abhinandan Dogra, Abrar Majeedi, <strong>Hanan Gani</strong>, Ravi M. Vishwanath and S N Omkar</div>
-    <div class="periodical"><em>ACM International Conference on Robotics and Computer Vision (ICRCV), 2018</em></div>
+    <div class="periodical"><em>IEEE ICSIP and ACM ICRCV 2018</em></div>
     <div class="links">
-      <a href="https://arxiv.org/pdf/1809.02875.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      <a href="https://ieeexplore.ieee.org/abstract/document/8600440" class="btn btn-sm z-depth-0" role="button" target="_blank">ICSIP Paper</a>
+      <a href="https://arxiv.org/pdf/1809.02875.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">ICRCV Paper</a>
       <a href="https://github.com/hananshafi/disguised-facial-recog" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
-      <strong><i>Arxiv Paper</i></strong>
     </div>
   </div>
 </div>
@@ -315,26 +342,6 @@
   
 <br>
  
-<li>
-<div class="pub-row">
-
-  <div class="col-sm-3 abbr">
-    <img src="assets/img/disguised_2.jpg" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">ICSIP</abbr>
-  </div>
-
-  <div class="col-sm-9">
-    <div class="title"><a href="https://ieeexplore.ieee.org/abstract/document/8600440">Disguised Facial Recognition Using Neural Networks</a></div>
-    <div class="author">S Kumaar, <strong>H. Gani</strong>, RM Vishwanath, SN Omkar, A Majeedi, A Dogra</div>
-    <div class="periodical"><em>IEEE 3rd International Conference on Signal and Image Processing (ICSIP), 2018</em></div>
-    <div class="links">
-      <a href="https://ieeexplore.ieee.org/abstract/document/8600440" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
-      <a href="https://github.com/hananshafi/disguised-facial-recog" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
-      <strong><i>Poster Presentation</i></strong>
-    </div>
-  </div>
-</div>
-</li>
 <br>
   
 </ol>
