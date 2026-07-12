@@ -55,20 +55,20 @@ layout: homepage
       <h3>University of California, San Diego</h3>
       <p>PhD in Computer Science<br>2025 to Present</p>
     </div>
-      <div class="trajectory-item">
+    <div class="trajectory-item">
       <img src="assets/img/MBZUAI_Logo_EN_Black.jpg" alt="MBZUAI logo">
       <h3>MBZUAI</h3>
       <p>Research Associate II<br>2024 to 2025</p>
     </div>
     <div class="trajectory-item">
-      <img src="assets/img/MBZUAI_Logo_EN_Black.jpg" alt="MBZUAI logo">
-      <h3>MBZUAI</h3>
-      <p>MS in Machine Learning<br>2022 to 2024</p>
-    </div>
-    <div class="trajectory-item">
       <img src="assets/img/kaust_logo.png" alt="KAUST logo">
       <h3>KAUST</h3>
       <p>Visiting Student<br>2023</p>
+    </div>
+    <div class="trajectory-item">
+      <img src="assets/img/MBZUAI_Logo_EN_Black.jpg" alt="MBZUAI logo">
+      <h3>MBZUAI</h3>
+      <p>MS in Machine Learning<br>2022 to 2024</p>
     </div>
     <div class="trajectory-item">
       <img src="assets/img/Samsung_Logo.png" alt="Samsung logo">
