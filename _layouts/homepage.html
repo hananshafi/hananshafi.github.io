@@ -31,9 +31,6 @@
   </head>
 
   <body>
-    <div class="bg-orb orb-one" aria-hidden="true"></div>
-    <div class="bg-orb orb-two" aria-hidden="true"></div>
-
     <div class="site-shell">
       <aside class="profile-panel">
         {% if site.avatar %}
@@ -44,6 +41,10 @@
 
         {% if site.position %}
         <p class="profile-role">{{ site.position }}</p>
+        {% endif %}
+
+        {% if site.affiliation %}
+        <p class="profile-affiliation"><a href="{{ site.affiliation_link | default: '#' }}" rel="noopener">{{ site.affiliation }}</a></p>
         {% endif %}
 
         {% if site.email %}
@@ -61,10 +62,16 @@
 
         <div class="profile-actions">
           {% if site.cv_link %}
-          <a class="action-chip" href="{{ site.cv_link }}" target="_blank" rel="noopener">CV</a>
+          <a class="action-chip" href="{{ site.cv_link }}" target="_blank" rel="noopener">
+            <i class="fas fa-file-alt" aria-hidden="true"></i>
+            <span>CV</span>
+          </a>
           {% endif %}
           {% if site.google_scholar %}
-          <a class="action-chip" href="{{ site.google_scholar }}" target="_blank" rel="noopener">Scholar</a>
+          <a class="action-chip" href="{{ site.google_scholar }}" target="_blank" rel="noopener">
+            <i class="ai ai-google-scholar" aria-hidden="true"></i>
+            <span>Scholar</span>
+          </a>
           {% endif %}
         </div>
 
