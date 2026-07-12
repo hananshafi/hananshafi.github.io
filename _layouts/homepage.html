@@ -32,69 +32,73 @@
 
   <body>
     <div class="site-shell">
-      <aside class="profile-panel">
+      <header class="profile-panel">
         {% if site.avatar %}
         <a class="image avatar" href="#about"><img src="{{ site.avatar }}" alt="{{ site.title }} profile photo"></a>
         {% endif %}
 
-        <h1>{{ site.title }}</h1>
+        <div class="profile-copy">
+          <h1>{{ site.title }}</h1>
 
-        {% if site.position %}
-        <p class="profile-role">{{ site.position }}</p>
-        {% endif %}
-
-        {% if site.affiliation %}
-        <p class="profile-affiliation"><a href="{{ site.affiliation_link | default: '#' }}" rel="noopener">{{ site.affiliation }}</a></p>
-        {% endif %}
-
-        {% if site.email %}
-        <p class="profile-email"><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-        {% endif %}
-
-        <nav class="section-nav" aria-label="Section navigation">
-          <a href="#about">About</a>
-          <a href="#research">Research</a>
-          <a href="#news">News</a>
-          <a href="#publications">Publications</a>
-          <a href="#services">Service</a>
-          <a href="#awards">Awards</a>
-        </nav>
-
-        <div class="profile-actions">
-          {% if site.cv_link %}
-          <a class="action-chip" href="{{ site.cv_link }}" target="_blank" rel="noopener">
-            <i class="fas fa-file-alt" aria-hidden="true"></i>
-            <span>CV</span>
-          </a>
+          {% if site.position %}
+          <p class="profile-role">{{ site.position }}</p>
           {% endif %}
-          {% if site.google_scholar %}
-          <a class="action-chip" href="{{ site.google_scholar }}" target="_blank" rel="noopener">
-            <i class="ai ai-google-scholar" aria-hidden="true"></i>
-            <span>Scholar</span>
-          </a>
+
+          {% if site.affiliation %}
+          <p class="profile-affiliation"><a href="{{ site.affiliation_link | default: '#' }}" rel="noopener">{{ site.affiliation }}</a></p>
           {% endif %}
+
+          {% if site.email %}
+          <p class="profile-email"><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+          {% endif %}
+
+          <div class="profile-links">
+            <div class="profile-actions">
+              {% if site.cv_link %}
+              <a class="action-chip" href="{{ site.cv_link }}" target="_blank" rel="noopener">
+                <i class="fas fa-file-alt" aria-hidden="true"></i>
+                <span>CV</span>
+              </a>
+              {% endif %}
+              {% if site.google_scholar %}
+              <a class="action-chip" href="{{ site.google_scholar }}" target="_blank" rel="noopener">
+                <i class="ai ai-google-scholar" aria-hidden="true"></i>
+                <span>Scholar</span>
+              </a>
+              {% endif %}
+            </div>
+
+            <div class="social-icons" aria-label="Social links">
+              {% if site.github_link %}
+              <a href="{{ site.github_link }}" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+              {% endif %}
+
+              {% if site.linkedin %}
+              <a href="{{ site.linkedin }}" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn">
+                <i class="fab fa-linkedin" aria-hidden="true"></i>
+              </a>
+              {% endif %}
+
+              {% if site.twitter %}
+              <a href="{{ site.twitter }}" target="_blank" rel="noopener" title="Twitter" aria-label="Twitter">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+              </a>
+              {% endif %}
+            </div>
+          </div>
         </div>
+      </header>
 
-        <div class="social-icons" aria-label="Social links">
-          {% if site.github_link %}
-          <a href="{{ site.github_link }}" target="_blank" rel="noopener" title="GitHub">
-            <i class="fab fa-github"></i>
-          </a>
-          {% endif %}
-
-          {% if site.linkedin %}
-          <a href="{{ site.linkedin }}" target="_blank" rel="noopener" title="LinkedIn">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          {% endif %}
-
-          {% if site.twitter %}
-          <a href="{{ site.twitter }}" target="_blank" rel="noopener" title="Twitter">
-            <i class="fab fa-twitter"></i>
-          </a>
-          {% endif %}
-        </div>
-      </aside>
+      <nav class="section-nav" aria-label="Section navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#services">Service</a>
+        <a href="#awards">Awards</a>
+      </nav>
 
       <main class="content-panel">
         {{ content }}
