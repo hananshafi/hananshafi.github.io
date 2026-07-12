@@ -46,10 +46,6 @@
         <p class="profile-role">{{ site.position }}</p>
         {% endif %}
 
-        {% if site.affiliation %}
-        <p class="profile-affiliation"><a href="{{ site.affiliation_link | default: '#' }}" rel="noopener">{{ site.affiliation }}</a></p>
-        {% endif %}
-
         {% if site.email %}
         <p class="profile-email"><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
         {% endif %}
