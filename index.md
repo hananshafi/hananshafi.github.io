@@ -63,7 +63,7 @@ layout: homepage
     </div>
     <div class="trajectory-item">
       <div class="trajectory-year">2024 to 2025</div>
-      <img src="assets/img/MBZUAI_Logo_EN_Black.jpg" alt="MBZUAI logo">
+      <img class="trajectory-logo-wide" src="assets/img/MBZUAI_Logo_EN_Black.jpg" alt="MBZUAI logo">
       <div class="trajectory-copy">
         <h3>MBZUAI</h3>
         <p>Research Associate II</p>
@@ -79,7 +79,7 @@ layout: homepage
     </div>
     <div class="trajectory-item">
       <div class="trajectory-year">2022 to 2024</div>
-      <img src="assets/img/MBZUAI_Logo_EN_Black.jpg" alt="MBZUAI logo">
+      <img class="trajectory-logo-wide" src="assets/img/MBZUAI_Logo_EN_Black.jpg" alt="MBZUAI logo">
       <div class="trajectory-copy">
         <h3>MBZUAI</h3>
         <p>MS in Machine Learning</p>
@@ -95,7 +95,7 @@ layout: homepage
     </div>
     <div class="trajectory-item">
       <div class="trajectory-year">2014 to 2018</div>
-      <img src="assets/img/nit_logo.png" alt="NIT Srinagar logo">
+      <img class="trajectory-logo-wide" src="assets/img/nit_logo.png" alt="NIT Srinagar logo">
       <div class="trajectory-copy">
         <h3>NIT Srinagar</h3>
         <p>Bachelor's in ECE, Minor in CS</p>

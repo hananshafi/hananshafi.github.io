@@ -262,7 +262,7 @@ h2[id] {
 
 .trajectory-item {
   display: grid;
-  grid-template-columns: 118px 54px minmax(0, 1fr);
+  grid-template-columns: 118px 112px minmax(0, 1fr);
   gap: 1rem;
   align-items: center;
   padding: 0.95rem 0;
@@ -278,7 +278,13 @@ h2[id] {
 .trajectory-item img {
   width: 48px;
   height: 38px;
+  justify-self: center;
   object-fit: contain;
+}
+
+.trajectory-item img.trajectory-logo-wide {
+  width: 108px;
+  height: 46px;
 }
 
 .trajectory-copy h3 {
@@ -425,13 +431,18 @@ blockquote {
   }
 
   .trajectory-item {
-    grid-template-columns: 84px 44px minmax(0, 1fr);
+    grid-template-columns: 78px 88px minmax(0, 1fr);
     gap: 0.7rem;
   }
 
   .trajectory-item img {
     width: 40px;
     height: 34px;
+  }
+
+  .trajectory-item img.trajectory-logo-wide {
+    width: 86px;
+    height: 38px;
   }
 
   .trajectory-year {
