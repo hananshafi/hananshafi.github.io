@@ -46,39 +46,60 @@ layout: homepage
   <h2 class="section-heading">Career Trajectory</h2>
   <div class="trajectory-grid">
     <div class="trajectory-item">
+      <div class="trajectory-year">2026 to Present</div>
       <img src="assets/img/meta_logo.svg" alt="Meta logo">
-      <h3>Meta</h3>
-      <p>Research Scientist Intern, FAIR<br>2026 to Present</p>
+      <div class="trajectory-copy">
+        <h3>Meta</h3>
+        <p>Research Scientist Intern, FAIR</p>
+      </div>
     </div>
     <div class="trajectory-item">
+      <div class="trajectory-year">2025 to Present</div>
       <img src="assets/img/ucsd_logo.png" alt="UC San Diego logo">
-      <h3>University of California, San Diego</h3>
-      <p>PhD in Computer Science<br>2025 to Present</p>
+      <div class="trajectory-copy">
+        <h3>University of California, San Diego</h3>
+        <p>PhD in Computer Science</p>
+      </div>
     </div>
     <div class="trajectory-item">
+      <div class="trajectory-year">2024 to 2025</div>
       <img src="assets/img/MBZUAI_Logo_EN_Black.jpg" alt="MBZUAI logo">
-      <h3>MBZUAI</h3>
-      <p>Research Associate II<br>2024 to 2025</p>
+      <div class="trajectory-copy">
+        <h3>MBZUAI</h3>
+        <p>Research Associate II</p>
+      </div>
     </div>
     <div class="trajectory-item">
+      <div class="trajectory-year">2023</div>
       <img src="assets/img/kaust_logo.png" alt="KAUST logo">
-      <h3>KAUST</h3>
-      <p>Visiting Student<br>2023</p>
+      <div class="trajectory-copy">
+        <h3>KAUST</h3>
+        <p>Visiting Student</p>
+      </div>
     </div>
     <div class="trajectory-item">
+      <div class="trajectory-year">2022 to 2024</div>
       <img src="assets/img/MBZUAI_Logo_EN_Black.jpg" alt="MBZUAI logo">
-      <h3>MBZUAI</h3>
-      <p>MS in Machine Learning<br>2022 to 2024</p>
+      <div class="trajectory-copy">
+        <h3>MBZUAI</h3>
+        <p>MS in Machine Learning</p>
+      </div>
     </div>
     <div class="trajectory-item">
+      <div class="trajectory-year">2018 to 2021</div>
       <img src="assets/img/Samsung_Logo.png" alt="Samsung logo">
-      <h3>Samsung</h3>
-      <p>Machine Learning Engineer<br>2018 to 2021</p>
+      <div class="trajectory-copy">
+        <h3>Samsung</h3>
+        <p>Machine Learning Engineer</p>
+      </div>
     </div>
     <div class="trajectory-item">
+      <div class="trajectory-year">2014 to 2018</div>
       <img src="assets/img/nit_logo.png" alt="NIT Srinagar logo">
-      <h3>NIT Srinagar</h3>
-      <p>Bachelor's in ECE, Minor in CS<br>2014 to 2018</p>
+      <div class="trajectory-copy">
+        <h3>NIT Srinagar</h3>
+        <p>Bachelor's in ECE, Minor in CS</p>
+      </div>
     </div>
   </div>
 </section>
@@ -87,12 +108,12 @@ layout: homepage
   <h2 class="section-heading">Recent News</h2>
   <ul class="news-list">
     <li>
-      <span class="news-date">Jun 2026</span>
-      <p>Started my Research Scientist Internship with the FAIR team at Meta.</p>
-    </li>
-    <li>
       <span class="news-date">Jul 2026</span>
       <p>RoboTALES accepted at ECCV 2026! 🎉</p>
+    </li>
+    <li>
+      <span class="news-date">Jun 2026</span>
+      <p>Started my Research Scientist Internship with the FAIR team at Meta.</p>
     </li>
     <li>
       <span class="news-date">Mar 2026</span>
