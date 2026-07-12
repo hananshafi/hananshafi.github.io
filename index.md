@@ -75,7 +75,7 @@ layout: homepage
     <div class="trajectory-item">
       <div class="trajectory-year">2023</div>
       <span class="trajectory-marker" aria-hidden="true"></span>
-      <img src="assets/img/kaust_logo.png" alt="KAUST logo">
+      <img class="trajectory-logo-kaust" src="assets/img/kaust_logo.png" alt="KAUST logo">
       <div class="trajectory-copy">
         <h3>KAUST</h3>
         <p>Visiting Student</p>
