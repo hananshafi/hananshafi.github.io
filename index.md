@@ -46,6 +46,11 @@ layout: homepage
   <h2 class="section-heading">Career Trajectory</h2>
   <div class="trajectory-grid">
     <div class="trajectory-item">
+      <img src="assets/img/meta_logo.svg" alt="Meta logo">
+      <h3>Meta</h3>
+      <p>Research Scientist Intern, FAIR<br>2026 to Present</p>
+    </div>
+    <div class="trajectory-item">
       <img src="assets/img/ucsd_logo.png" alt="UC San Diego logo">
       <h3>University of California, San Diego</h3>
       <p>PhD in Computer Science<br>2025 to Present</p>
