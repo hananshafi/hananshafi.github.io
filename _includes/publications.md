@@ -33,13 +33,13 @@
 
   <div class="col-sm-3 abbr">
     <img src="assets/img/videomolmo_main_diagram.jpg" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Under Review</abbr>
+    <abbr class="badge">ACL Findings 2026</abbr>
   </div>
 
   <div class="col-sm-9">
     <div class="title"><a href="https://arxiv.org/abs/2506.05336">VideoMolmo: Spatio-Temporal Grounding meets Pointing</a></div>
     <div class="author">Ghazi Shazan Ahmad*, Ahmed Heakl*, <strong>Hanan Gani</strong>, Abdelrahman Shaker, Zhiqiang Shen, Ranjay Krishna, Fahad Shahbaz Khan, Salman Khan</div>
-    <div class="periodical"><em>Under Review</em></div>
+    <div class="periodical"><em>Findings of the Association for Computational Linguistics: ACL 2026</em></div>
     <div class="links">
       <a href="http://arxiv.org/pdf/2506.05336" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
       <a href="https://mbzuai-oryx.github.io/VideoMolmo/" class="btn btn-sm z-depth-0" role="button" target="_blank">Project page</a>

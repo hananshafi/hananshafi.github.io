@@ -82,6 +82,14 @@ layout: homepage
   <h2 class="section-heading">Recent News</h2>
   <ul class="news-list">
     <li>
+      <span class="news-date">Jul 2026</span>
+      <p>Started my Research Scientist Internship with the FAIR team at Meta.</p>
+    </li>
+    <li>
+      <span class="news-date">Jul 2026</span>
+      <p>RoboTALES accepted at ECCV 2026! 🎉</p>
+    </li>
+    <li>
       <span class="news-date">Mar 2026</span>
       <p>One paper accepted at ML4RS workshop at ICLR 2026.</p>
     </li>
