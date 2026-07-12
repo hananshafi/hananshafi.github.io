@@ -4,10 +4,10 @@ layout: homepage
 
 <section id="about" class="section-card hero-card">
   <p>
-    I am currently a <strong>Research Scientist Intern in the FAIR team at Meta</strong>.
-    I am also a <strong>PhD student and Powell Fellow in Computer Science at UC San Diego</strong>, advised by
+    I am a <strong>PhD student and Powell Fellow in Computer Science at UC San Diego</strong>, advised by
     <a href="https://cseweb.ucsd.edu/~mkchandraker/">Prof. Manmohan Chandraker</a>.
-    I am also supported by <strong>Powell Fellowship</strong> and <strong>UCSD Jacobs School of Engineering Fellowship</strong>.
+    I am currently spending time working as a <strong>Research Scientist Intern</strong> with the FAIR team at Meta.
+    I am supported by <strong>Powell Fellowship</strong> and <strong>UCSD Jacobs School of Engineering Fellowship</strong>.
   </p>
   <p>
     Before UCSD, I completed my <strong>Master's in Machine Learning at MBZUAI</strong> in the
