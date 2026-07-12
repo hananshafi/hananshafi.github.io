@@ -4,7 +4,7 @@ layout: homepage
 
 <section id="about" class="section-card hero-card">
   <p>
-    I am currently a <strong>Research Scientist Intern at FAIR, Meta</strong>.
+    I am currently a <strong>Research Scientist Intern in the FAIR team at Meta</strong>.
     I am also a <strong>PhD student and Powell Fellow in Computer Science at UC San Diego</strong>, advised by
     <a href="https://cseweb.ucsd.edu/~mkchandraker/">Prof. Manmohan Chandraker</a>.
     I am also supported by <strong>Powell Fellowship</strong> and <strong>UCSD Jacobs School of Engineering Fellowship</strong>.
