@@ -95,7 +95,7 @@ layout: homepage
       <span class="trajectory-marker" aria-hidden="true"></span>
       <img src="assets/img/Samsung_Logo.png" alt="Samsung logo">
       <div class="trajectory-copy">
-        <h3>Samsung</h3>
+        <h3>Samsung-Harman</h3>
         <p>Machine Learning Engineer</p>
       </div>
     </div>
