@@ -57,7 +57,7 @@ layout: homepage
     <div class="trajectory-item">
       <div class="trajectory-year">2025 to Present</div>
       <span class="trajectory-marker" aria-hidden="true"></span>
-      <img src="assets/img/ucsd_logo.png" alt="UC San Diego logo">
+      <img class="trajectory-logo-ucsd" src="assets/img/ucsd_logo.png" alt="UC San Diego logo">
       <div class="trajectory-copy">
         <h3>University of California, San Diego</h3>
         <p>PhD in Computer Science</p>
