@@ -262,8 +262,8 @@ h2[id] {
 
 .trajectory-item {
   display: grid;
-  grid-template-columns: 118px 112px minmax(0, 1fr);
-  gap: 1rem;
+  grid-template-columns: 106px 18px 112px minmax(0, 1fr);
+  gap: 0.8rem;
   align-items: center;
   padding: 0.95rem 0;
   border-top: 1px solid var(--edge);
@@ -273,6 +273,45 @@ h2[id] {
   color: var(--muted);
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 0.74rem;
+  text-align: right;
+}
+
+.trajectory-marker {
+  position: relative;
+  align-self: stretch;
+  min-height: 48px;
+  margin: -0.95rem 0;
+}
+
+.trajectory-marker::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+  background: var(--edge);
+}
+
+.trajectory-marker::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 9px;
+  height: 9px;
+  border: 2px solid var(--accent);
+  border-radius: 50%;
+  background: var(--bg);
+  transform: translate(-50%, -50%);
+}
+
+.trajectory-item:first-child .trajectory-marker::before {
+  top: 50%;
+}
+
+.trajectory-item:last-child .trajectory-marker::before {
+  bottom: 50%;
 }
 
 .trajectory-item img {
@@ -431,8 +470,8 @@ blockquote {
   }
 
   .trajectory-item {
-    grid-template-columns: 78px 88px minmax(0, 1fr);
-    gap: 0.7rem;
+    grid-template-columns: 68px 16px 86px minmax(0, 1fr);
+    gap: 0.45rem;
   }
 
   .trajectory-item img {

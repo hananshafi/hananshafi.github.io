@@ -47,6 +47,7 @@ layout: homepage
   <div class="trajectory-grid">
     <div class="trajectory-item">
       <div class="trajectory-year">2026 to Present</div>
+      <span class="trajectory-marker" aria-hidden="true"></span>
       <img src="assets/img/meta_logo.svg" alt="Meta logo">
       <div class="trajectory-copy">
         <h3>Meta</h3>
@@ -55,6 +56,7 @@ layout: homepage
     </div>
     <div class="trajectory-item">
       <div class="trajectory-year">2025 to Present</div>
+      <span class="trajectory-marker" aria-hidden="true"></span>
       <img src="assets/img/ucsd_logo.png" alt="UC San Diego logo">
       <div class="trajectory-copy">
         <h3>University of California, San Diego</h3>
@@ -63,6 +65,7 @@ layout: homepage
     </div>
     <div class="trajectory-item">
       <div class="trajectory-year">2024 to 2025</div>
+      <span class="trajectory-marker" aria-hidden="true"></span>
       <img class="trajectory-logo-wide" src="assets/img/MBZUAI_Logo_EN_Black.jpg" alt="MBZUAI logo">
       <div class="trajectory-copy">
         <h3>MBZUAI</h3>
@@ -71,6 +74,7 @@ layout: homepage
     </div>
     <div class="trajectory-item">
       <div class="trajectory-year">2023</div>
+      <span class="trajectory-marker" aria-hidden="true"></span>
       <img src="assets/img/kaust_logo.png" alt="KAUST logo">
       <div class="trajectory-copy">
         <h3>KAUST</h3>
@@ -79,6 +83,7 @@ layout: homepage
     </div>
     <div class="trajectory-item">
       <div class="trajectory-year">2022 to 2024</div>
+      <span class="trajectory-marker" aria-hidden="true"></span>
       <img class="trajectory-logo-wide" src="assets/img/MBZUAI_Logo_EN_Black.jpg" alt="MBZUAI logo">
       <div class="trajectory-copy">
         <h3>MBZUAI</h3>
@@ -87,6 +92,7 @@ layout: homepage
     </div>
     <div class="trajectory-item">
       <div class="trajectory-year">2018 to 2021</div>
+      <span class="trajectory-marker" aria-hidden="true"></span>
       <img src="assets/img/Samsung_Logo.png" alt="Samsung logo">
       <div class="trajectory-copy">
         <h3>Samsung</h3>
@@ -95,6 +101,7 @@ layout: homepage
     </div>
     <div class="trajectory-item">
       <div class="trajectory-year">2014 to 2018</div>
+      <span class="trajectory-marker" aria-hidden="true"></span>
       <img class="trajectory-logo-wide" src="assets/img/nit_logo.png" alt="NIT Srinagar logo">
       <div class="trajectory-copy">
         <h3>NIT Srinagar</h3>
