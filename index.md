@@ -109,7 +109,7 @@ layout: homepage
   <ul class="news-list">
     <li>
       <span class="news-date">Jul 2026</span>
-      <p>RoboTALES accepted at ECCV 2026! 🎉</p>
+      <p>RoboTALES is accepted at ECCV 2026! 🎉</p>
     </li>
     <li>
       <span class="news-date">Jun 2026</span>
@@ -117,11 +117,11 @@ layout: homepage
     </li>
     <li>
       <span class="news-date">Mar 2026</span>
-      <p>One paper accepted at ML4RS workshop at ICLR 2026.</p>
+      <p>One paper is accepted at ML4RS workshop at ICLR 2026.</p>
     </li>
     <li>
       <span class="news-date">Jan 2026</span>
-      <p>Agent-X accepted at ICLR 2026.</p>
+      <p>Agent-X is accepted at ICLR 2026.</p>
     </li>
     <li>
       <span class="news-date">Sep 2025</span>
@@ -133,15 +133,15 @@ layout: homepage
     </li>
     <li>
       <span class="news-date">Jun 2025</span>
-      <p>Aurelia accepted at ICCV 2025.</p>
+      <p>Aurelia is accepted at ICCV 2025.</p>
     </li>
     <li>
       <span class="news-date">Mar 2025</span>
-      <p>VideoGLaMM accepted at CVPR 2025.</p>
+      <p>VideoGLaMM is accepted at CVPR 2025.</p>
     </li>
     <li>
       <span class="news-date">Jan 2025</span>
-      <p>VANE-Bench accepted at NAACL 2025.</p>
+      <p>VANE-Bench is accepted at NAACL 2025.</p>
     </li>
     <li>
       <span class="news-date">Mar 2024</span>
