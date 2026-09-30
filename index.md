@@ -115,6 +115,10 @@ layout: homepage
   <h2 class="section-heading">Recent News</h2>
   <ul class="news-list">
     <li>
+      <span class="news-date">September 2026</span>
+      <p>Our paper "Mental-Models for Multi-agent Systems" is accepted at NeurIPS 2026! 🎉</p>
+    </li>
+    <li>
       <span class="news-date">Jul 2026</span>
       <p>RoboTALES is accepted at ECCV 2026! 🎉</p>
     </li>
