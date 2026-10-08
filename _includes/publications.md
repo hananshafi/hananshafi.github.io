@@ -4,7 +4,7 @@
 <ol class="bibliography">
 
 
-<li class="pub-featured">
+<li>
 <div class="pub-row">
 
   <div class="col-sm-3 abbr">
@@ -13,7 +13,6 @@
   </div>
 
   <div class="col-sm-9">
-    <div class="pub-flag">New</div>
     <!-- TODO: replace both "#" links with the arXiv abstract/PDF URLs. -->
     <div class="title"><a href="#">Mental-Models for Multi-Agent Systems</a></div>
     <div class="author"><strong>Hanan Gani</strong>, Lulu Shao, Manmohan Chandraker</div>
