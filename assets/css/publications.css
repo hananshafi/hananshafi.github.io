@@ -12,6 +12,10 @@
   text-transform: uppercase;
 }
 
+.badge.badge-keep-case {
+  text-transform: none;
+}
+
 .publications {
   margin-top: 0.2rem;
 }

@@ -9,7 +9,7 @@
 
   <div class="col-sm-3 abbr">
     <img src="assets/img/mental_models_main_diagram.png" class="teaser img-fluid z-depth-1" alt="Mental-Models for Multi-Agent Systems method overview">
-    <abbr class="badge">NeurIPS 2026</abbr>
+    <abbr class="badge badge-keep-case">NeurIPS 2026</abbr>
   </div>
 
   <div class="col-sm-9">
