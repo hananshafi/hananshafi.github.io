@@ -4,6 +4,32 @@
 <ol class="bibliography">
 
 
+<li class="pub-featured">
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr">
+    <img src="assets/img/mental_models_teaser.png" class="teaser img-fluid z-depth-1" alt="Mental-Models for Multi-Agent Systems teaser">
+    <abbr class="badge">NeurIPS 2026</abbr>
+  </div>
+
+  <div class="col-sm-9">
+    <div class="pub-flag">New</div>
+    <!-- TODO: replace both "#" links with the arXiv abstract/PDF URLs. -->
+    <div class="title"><a href="#">Mental-Models for Multi-Agent Systems</a></div>
+    <div class="author"><strong>Hanan Gani</strong>, Lulu Shao, Manmohan Chandraker</div>
+    <div class="periodical"><em>Advances in Neural Information Processing Systems (NeurIPS) 2026</em></div>
+    <div class="links">
+      <a href="#" class="btn btn-sm z-depth-0" role="button">PDF</a>
+      <a href="https://hananshafi.github.io/Mental-Models/" class="btn btn-sm z-depth-0" role="button" target="_blank">Project page</a>
+      <a href="https://github.com/hananshafi/Mental-Models" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    </div>
+  </div>
+</div>
+</li>
+
+<br>
+
+
 <li>
 <div class="pub-row">
 
