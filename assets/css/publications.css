@@ -40,7 +40,7 @@
   padding: 1.15rem 0;
 }
 
-.publications ol.bibliography li:first-child .pub-row {
+.publications ol.bibliography li.pub-highlight .pub-row {
   margin: 0.5rem 0;
   padding: 1.1rem;
   border-left: 3px solid var(--accent);
@@ -139,7 +139,7 @@
     padding: 1rem 0;
   }
 
-  .publications ol.bibliography li:first-child .pub-row {
+  .publications ol.bibliography li.pub-highlight .pub-row {
     margin: 0.35rem 0;
     padding: 0.8rem;
   }

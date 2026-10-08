@@ -6,7 +6,7 @@ layout: homepage
   <p>
     I am a <strong>PhD student and Powell Fellow in Computer Science at UC San Diego</strong>, advised by
     <a href="https://cseweb.ucsd.edu/~mkchandraker/">Prof. Manmohan Chandraker</a>.
-    I am currently spending time working as a <strong>Research Scientist Intern</strong> with the FAIR team at Meta.
+    Previously, I spent time as a <strong>Research Scientist Intern</strong> with the world model team at FAIR, Meta.
     I am supported by <strong>Powell Fellowship</strong> and <strong>UCSD Jacobs School of Engineering Fellowship</strong>.
   </p>
   <p>
@@ -43,10 +43,10 @@ layout: homepage
 </section>
 
 <section class="section-card">
-  <h2 class="section-heading">Career Trajectory</h2>
+  <h2 class="section-heading">Timeline</h2>
   <div class="trajectory-grid">
     <div class="trajectory-item">
-      <div class="trajectory-year">2026 to Present</div>
+      <div class="trajectory-year">2026</div>
       <span class="trajectory-marker" aria-hidden="true"></span>
       <img src="assets/img/meta_logo.svg" alt="Meta logo">
       <div class="trajectory-copy">
