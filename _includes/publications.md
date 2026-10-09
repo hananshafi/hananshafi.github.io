@@ -13,12 +13,11 @@
   </div>
 
   <div class="col-sm-9">
-    <!-- TODO: replace both "#" links with the arXiv abstract/PDF URLs. -->
-    <div class="title"><a href="#">Mental-Models for Multi-Agent Systems</a></div>
+    <div class="title"><a href="https://arxiv.org/abs/2610.12453">Mental-Models for Multi-Agent Systems</a></div>
     <div class="author"><strong>Hanan Gani</strong>, Lulu Shao, Manmohan Chandraker</div>
     <div class="periodical"><em>Advances in Neural Information Processing Systems (NeurIPS) 2026</em></div>
     <div class="links">
-      <a href="#" class="btn btn-sm z-depth-0" role="button">PDF</a>
+      <a href="https://arxiv.org/pdf/2610.12453" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
       <a href="https://hananshafi.github.io/Mental-Models/" class="btn btn-sm z-depth-0" role="button" target="_blank">Project page</a>
       <a href="https://github.com/hananshafi/Mental-Models" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
     </div>
