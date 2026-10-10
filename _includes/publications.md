@@ -373,6 +373,8 @@
 
 
 
+<br>
+
 <h2 id="patents" class="section-heading">Patents</h2>
 
 <div class="publications">
@@ -380,12 +382,12 @@
     <li>
       <div class="pub-row">
         <div class="col-sm-3 abbr">
-          <img src="assets/files/patent_github.png" class="teaser img-fluid z-depth-1">
+          <img src="assets/img/patent_vit_small_datasets.png" class="teaser img-fluid z-depth-1" alt="Patent drawing: student-teacher ViT training with dynamic position embeddings">
           <abbr class="badge">US-Patent</abbr>
         </div>
         <div class="col-sm-9">
           <div class="title">
-            <a href="https://arxiv.org/abs/1809.02875">System and method of training vision transformer on small-scale datasets</a>
+            <a href="https://patents.google.com/patent/US20240212330A1/en">System and method of training vision transformer on small-scale datasets</a>
           </div>
           <div class="author"><strong>Hanan Gani</strong>, Muzammal Naseer and Mohammad Yaqub</div>
           <div class="periodical"><em>US Patent, 2024</em></div>
