@@ -27,6 +27,7 @@
 <div class="service-block">
   <h3>Invited Talks</h3>
   <ul class="compact-list">
+    <li>Oct 2026: Delivered a talk on "Mental-models for Multi-Agent Systems" at the New York University, Abu Dhabi campus.</li>
     <li>May 2025: Delivered a talk on "Latest Trends in AI" at Abu Dhabi University.</li>
     <li>June 2024: Presented a talk on "Generative AI" for undergraduate CS students at the University of Jordan.</li>
   </ul>
