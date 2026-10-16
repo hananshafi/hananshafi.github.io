@@ -114,6 +114,10 @@ layout: homepage
 <section id="news" class="section-card">
   <h2 class="section-heading">Recent News</h2>
   <ul class="news-list">
+        <li>
+      <span class="news-date">Sept 2026</span>
+      <p>Recognized as a Top Reviewer by NeurIPS 2026 Committee 🥇</p>
+    </li>
     <li>
       <span class="news-date">Sept 2026</span>
       <p>Our paper "Mental-Models for Multi-agent Systems" is accepted at NeurIPS 2026! 🎉</p>
